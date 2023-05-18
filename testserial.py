@@ -5,6 +5,7 @@ gq EMF detector on ttyUSB0
 """
 
 import serial
+import binascii
 
 TEST_STRING = b'<GETVER>>'
 
@@ -31,5 +32,7 @@ port.flush()
 response = port.read( 4098 )
 
 print(response)
+print("-----------------")
+print(binascii.b2a_hex(response))
 
 port.close()
