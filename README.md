@@ -7,7 +7,7 @@ via raw serial commands and to get back the raw data.
 Simple scripts for testing that device
 
 
-TEST_STRING = b'<GETVER>>'
+TEST_STRING = b'\<GETVER\>\>'
 
 Results in
 b'GQ-EMF390v2Re 3.72\r\n'
