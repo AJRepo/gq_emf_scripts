@@ -26,6 +26,7 @@ date row + 180 data rows
 Dumping the first two timestamped data records
 TEST_STRING = b'<SPIR\x00\x00\x00\x0a\x04>>'
 
+```
 55aa1705100e3737
 aa550013404f8042c43119485a02
 aa550013404f8042c43119485a02
@@ -51,3 +52,4 @@ aa550013c1677b420e814d485a08
 55aa1705100f0019
 aa550013e3e47b42289a35485a02
 ... etc ... 
+```
