@@ -18,17 +18,8 @@ Data records come as
 date row + N data rows (where N <= 180)
 date row + 180 data rows
 
-91 rows at 14 bytes each + date row of 8 bytes
-91 * 14 + 8 = 1274 + 8 = 502 DEC = 508 HEX
- Two sets = 2564 DEC = 0A04 HEX
- So call <SPIR 00 00 00 0a 04>>
- to get a two uninterrupted records
-
 Dumping the first two timestamped data records
-TEST_STRING = b'<SPIR\x00\x00\x00\x0a\x04>>'
-```
 
-```
 55aa1705100e3737
 aa550013404f8042c43119485a02
 aa550013404f8042c43119485a02
