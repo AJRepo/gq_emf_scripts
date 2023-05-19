@@ -13,6 +13,7 @@ Results in
 b'GQ-EMF390v2Re 3.72\r\n'
 
 ---
+```
 Data records come as 
 date row + N data rows (where N <= 180)
 date row + 180 data rows
@@ -25,6 +26,7 @@ date row + 180 data rows
 
 Dumping the first two timestamped data records
 TEST_STRING = b'<SPIR\x00\x00\x00\x0a\x04>>'
+```
 
 ```
 55aa1705100e3737
